@@ -85,7 +85,7 @@
     "❄️ 雪花飘飘，烦恼统统都飞走~",
     "🎄 快乐像铃铛，叮叮当当响在你心里~",
     "🌟 每天都有小惊喜，生活暖暖的~",
-    "🎁 祝你笑口常开，幸福满满，救赎 & 大白猫专属~"
+    "🎁 笑口常开，幸福满满哦，救赎 & 大白猫专属~"
   ];
 
   function createElement() {
@@ -102,7 +102,7 @@
     el.addEventListener('click', () => {
       const messageBox = document.getElementById('messageBox');
       const blessing = blessings[Math.floor(Math.random()*blessings.length)];
-      messageBox.textContent = `祝福你们，救赎 & 大白猫：${blessing}`;
+      messageBox.textContent = `签收人：救赎和大白猫${blessing}`;
       messageBox.style.display = 'block';
       setTimeout(() => { messageBox.style.display = 'none'; }, 3000);
       el.remove();
@@ -125,3 +125,4 @@
 
 </body>
 </html>
+
